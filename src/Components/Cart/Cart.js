@@ -8,7 +8,7 @@ const Cart = () => {
     return (
         <div>
             <div>
-                {cartItems.map((cartItem, index) => <CartItem key = {index} cartItem = {cartItem}/>)}
+                {cartItems.map((cartItem) => <CartItem key = {cartItem.id} cartItem = {cartItem}/>)}
             </div>
             <br />
             <div className="center">
